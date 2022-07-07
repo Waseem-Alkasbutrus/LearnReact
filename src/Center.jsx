@@ -1,7 +1,7 @@
 import React, { Children } from 'react'
 import { View } from 'react-native'
 
-export const Center = ({Children}) => {
+export const Center = ({children}) => {
   return (
     <View
       style={{

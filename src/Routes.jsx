@@ -1,8 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import React from 'react'
-import { Text } from 'react-native'
-import { Button } from 'react-native-web'
+import { Text, Button } from 'react-native'
 import { Center } from './Center'
 
 const Stack = createStackNavigator()
