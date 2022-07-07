@@ -1,10 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { DrawerNav } from "./navigation/DrawerNav";
+import { GlobalStackNav } from "./navigation/GlobalStackNav";
 
 export default function AppendMode() {
     return (
         <NavigationContainer>
-            <DrawerNav></DrawerNav>
+            <GlobalStackNav></GlobalStackNav>
         </NavigationContainer>
     )
 }

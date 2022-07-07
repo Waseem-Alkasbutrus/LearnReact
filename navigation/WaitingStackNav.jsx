@@ -11,9 +11,19 @@ const Stack = createStackNavigator()
 export function WaitingStackNav() {
   return (
     <Stack.Navigator initialRouteName="Scan Tag">
-      <Stack.Screen name="Scan Tag" component={ScanScreen} options={{ headerShown: false }}/>
-      <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false }}/>
-      <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }}/>
+      <Stack.Screen name="Scan Tag" component={ScanScreen} />
+
+      <Stack.Screen
+        name="Onboarding"
+        component={OnboardingScreen}
+        options={{ headerShown: false }}
+      />
+
+      <Stack.Screen
+        name="Welcome"
+        component={WelcomeScreen}
+        options={{ headerShown: false }}
+      />
     </Stack.Navigator>
   )
 }
