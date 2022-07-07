@@ -1,3 +1,10 @@
-import { Routes } from './src/Routes';
+import { NavigationContainer } from "@react-navigation/native";
+import { DrawerNav } from "./navigation/DrawerNav";
 
-export default Routes;
+export default function AppendMode() {
+    return (
+        <NavigationContainer>
+            <DrawerNav></DrawerNav>
+        </NavigationContainer>
+    )
+}
